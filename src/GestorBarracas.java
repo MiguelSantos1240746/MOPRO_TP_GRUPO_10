@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+
+import java.util.List;
+
+public class GestorBarracas {
+    private List<Barraca> barracas;
+
+    public GestorBarracas() {
+        this.barracas = new ArrayList<>();
+    }
+
+    public void adicionarBarraca(Barraca barraca) {
+        this.barracas.add(barraca);
+    }
+
+    public String getClassificacao(Barraca barraca) {
+        return barraca.getClassificacao();
+    }
+}
