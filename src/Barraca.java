@@ -52,5 +52,20 @@ public class Barraca {
         this.valorTotal = valorTotal;
     }
 
+    public void registarVenda(int quantidade, double valorUnitario) {
+        this.quantidadeVenda += quantidade;
+        this.valorTotal += quantidade * valorUnitario;
+    }
 
+
+    @Override
+    public String toString() {
+        return "Barraca{" +
+                "nome='" + nome + '\'' +
+                ", instituicao='" + instituição + '\'' +
+                ", quantidadeVenda=" + quantidadeVenda +
+                ", valorTotal=" + valorTotal +
+                '}';
+    }
 }
+
