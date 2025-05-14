@@ -1,4 +1,4 @@
-package model;
+package org.example.model;
 
 
 public class Barraca {
@@ -59,7 +59,7 @@ public class Barraca {
 
     @Override
     public String toString() {
-        return "model.Barraca{" +
+        return "org.example.model.Barraca{" +
                 "nome='" + nome + '\'' +
                 ", instituicao='" + instituição + '\'' +
                 ", quantidadeVenda=" + quantidadeVenda +

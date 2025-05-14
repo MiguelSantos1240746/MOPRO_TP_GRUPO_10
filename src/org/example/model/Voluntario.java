@@ -1,4 +1,4 @@
-package model;
+package org.example.model;
 
 
 public class Voluntario {
@@ -26,7 +26,7 @@ public class Voluntario {
 
     @Override
     public String toString() {
-        return "model.Voluntario{" +
+        return "org.example.model.Voluntario{" +
                 "nome='" + nome + '\'' +
                 ", numeroAluno='" + numeroAluno + '\'' +
                 ", curso='" + curso + '\'' +

@@ -1,7 +1,5 @@
 package org.example.model;
 
-import model.Barraca;
-
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
