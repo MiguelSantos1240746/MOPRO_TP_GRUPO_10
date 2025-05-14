@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
+package model;
 
 
 public class Voluntario {
@@ -27,7 +26,7 @@ public class Voluntario {
 
     @Override
     public String toString() {
-        return "Voluntario{" +
+        return "model.Voluntario{" +
                 "nome='" + nome + '\'' +
                 ", numeroAluno='" + numeroAluno + '\'' +
                 ", curso='" + curso + '\'' +

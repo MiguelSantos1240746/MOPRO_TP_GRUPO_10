@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
+package model;
 
 
 public class Barraca {
@@ -60,7 +59,7 @@ public class Barraca {
 
     @Override
     public String toString() {
-        return "Barraca{" +
+        return "model.Barraca{" +
                 "nome='" + nome + '\'' +
                 ", instituicao='" + instituição + '\'' +
                 ", quantidadeVenda=" + quantidadeVenda +
